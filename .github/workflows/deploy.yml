@@ -26,7 +26,7 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-          DOPPLER_TOKEN: ${{ secrets.DOPPLER_TOKEN }}
+          DOPPLER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
