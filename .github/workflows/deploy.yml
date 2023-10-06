@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
+      - name: Install Doppler CLI
+        uses: DopplerHQ/cli-action@v2
+
       - name: Build project
         run: npm run build
 
