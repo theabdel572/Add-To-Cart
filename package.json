@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "doppler run --watch -- vite",
-    "build": "doppler run --watch -- vite build",
-    "preview": "doppler run --watch -- vite preview"
+    "dev": "doppler run -p add-to-cart --watch -- vite",
+    "build": "doppler run -p add-to-cart --watch -- vite build",
+    "preview": "doppler run -p add-to-cart --watch -- vite preview"
   },
   "devDependencies": {
     "vite": "^4.4.5"
