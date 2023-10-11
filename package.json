@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "doppler run -p add-to-cart -c prd --watch -- vite",
+    "dev": "doppler run -p add-to-cart -c dev --watch -- vite",
     "build": "doppler run -p add-to-cart -c prd --watch -- vite build",
     "preview": "doppler run -p add-to-cart -c prd --watch -- vite preview"
   },

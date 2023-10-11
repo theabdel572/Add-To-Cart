@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
-    databaseURL: import.meta.env.VITE_FIREBASE_DB_URL
+    databaseURL: ${{ secrets.VITE_FIREBASE_DB_URL }}
 }
 
 const app = initializeApp(appSettings)
