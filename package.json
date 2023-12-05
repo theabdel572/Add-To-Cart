@@ -9,6 +9,6 @@
     "preview": "doppler run -p add-to-cart -c prd --watch -- vite preview"
   },
   "devDependencies": {
-    "vite": "^4.4.5"
+    "vite": "^4.4.12"
   }
 }
