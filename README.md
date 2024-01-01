@@ -1,5 +1,6 @@
 # Add To Cart
 ### A Progressive Web Application that allows users to add items to a cart and remove them by clicking on them. The cart is synchronized with a Firebase database between all the devices running the app.
+[>>CLICK HERE TO ACCESS IT<<](https://theabdel572.github.io/Add-To-Cart/)
 
 ## Technologies used
 In this project, I used HTML, CSS, JavaScript, WebManifest, and Firebase Realtime Database.
